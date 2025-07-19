@@ -36,13 +36,5 @@ Test can be run with typing pytest or pytest .\tests\tests.py and should result 
 Project Structure for you should look like the following:
 
 habit_tracker/
-├── application/
-│   ├── main.py            # FastAPI app + routes
-│   ├── crud.py            # Database operations
-│   ├── analytics.py       # Streak computation logic
-│   ├── database.py        # SQLite schema + connection
-│   ├── models.py          # Pydantic schemas
-├── tests/
-│   ├── tests.py           # Pytest test suite
-├── requirements.txt
-├── README.md
+with 2 folders: application and tests and files for requirements and the readme
+in application is the main code to run the habit tracker and tests only includes one tests.py file to run 10 tests.
